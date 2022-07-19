@@ -469,3 +469,25 @@ section.hero {
 .clientes img {
   width: 125px;
 }
+
+
+.icon-primary {
+  color: var(--secondary)
+}
+
+.icon-bg-circle {
+  position: relative
+}
+
+.icon-lg {
+  font-size: 60px
+}
+
+.icon-bg-circle::before {
+  z-index: 1;
+  position: relative
+}
+
+.icon-bg-primary::after {
+  background: var(--pr) !important
+}
